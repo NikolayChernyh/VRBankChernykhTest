@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: vrBank.api.tests.Negative.ApiDefaultPayWithInvalidCardHolder
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.283 s <<< FAILURE! - in vrBank.api.tests.Negative.ApiDefaultPayWithInvalidCardHolder
+apiDefaultPayWithInvalidCardHolder(vrBank.api.tests.Negative.ApiDefaultPayWithInvalidCardHolder)  Time elapsed: 28.283 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].response_code doesn't match.
+Expected: A102
+  Actual: 
+
+	at vrBank.api.tests.Negative.ApiDefaultPayWithInvalidCardHolder.apiDefaultPayWithInvalidCardHolder(ApiDefaultPayWithInvalidCardHolder.java:28)
+

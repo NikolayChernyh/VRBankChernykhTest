@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 36.145 s <<< FAILURE! - in vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit
+apiDefaultPayment_CheckAmountLimit[6](vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit)  Time elapsed: 36.137 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)
+
+apiDefaultPayment_CheckAmountLimit[3](vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit)  Time elapsed: 35.987 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)
+
+apiDefaultPayment_CheckAmountLimit[4](vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit)  Time elapsed: 35.965 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)
+
+apiDefaultPayment_CheckAmountLimit[5](vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit)  Time elapsed: 35.962 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)
+
+apiDefaultPayment_CheckAmountLimit[2](vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit)  Time elapsed: 35.981 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)
+

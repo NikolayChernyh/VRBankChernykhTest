@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit" skipped="0" tests="9" time="317.14" timestamp="2019-10-290 11:07:35"><testcase classname="vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit" name="Api default payment  check amount limit"><failure message="1 expectation failed.&#10;XML path response[0].status doesn't match.&#10;Expected: OK&#10;  Actual: KO&#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+</failure><system-err>1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)&#13;
+vrBank.responses.direct.PayResponse.status(PayResponse.java:27)&#13;
+vrBank.api.tests.Positive.ApiDefaultPayment_CheckAmountLimit.apiDefaultPayment_CheckAmountLimit(ApiDefaultPayment_CheckAmountLimit.java:57)&#13;
+</system-err></testcase></testsuite>

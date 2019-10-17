@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: vrBank.api.tests.Negative.ApiDefaultPayWithEmptyCf
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.37 s <<< FAILURE! - in vrBank.api.tests.Negative.ApiDefaultPayWithEmptyCf
+apiDefaultPayWithEmptyCf(vrBank.api.tests.Negative.ApiDefaultPayWithEmptyCf)  Time elapsed: 28.37 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].response_code doesn't match.
+Expected: A100
+  Actual: 
+
+	at vrBank.api.tests.Negative.ApiDefaultPayWithEmptyCf.apiDefaultPayWithEmptyCf(ApiDefaultPayWithEmptyCf.java:28)
+

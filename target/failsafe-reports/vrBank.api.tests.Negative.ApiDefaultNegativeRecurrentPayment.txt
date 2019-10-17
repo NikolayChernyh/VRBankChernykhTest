@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: vrBank.api.tests.Negative.ApiDefaultNegativeRecurrentPayment
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.305 s <<< FAILURE! - in vrBank.api.tests.Negative.ApiDefaultNegativeRecurrentPayment
+apiDefaultPositivePayment(vrBank.api.tests.Negative.ApiDefaultNegativeRecurrentPayment)  Time elapsed: 28.305 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path response[0].status doesn't match.
+Expected: OK
+  Actual: KO
+
+	at vrBank.api.tests.Negative.ApiDefaultNegativeRecurrentPayment.apiDefaultPositivePayment(ApiDefaultNegativeRecurrentPayment.java:25)
+

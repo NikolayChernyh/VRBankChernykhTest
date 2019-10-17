@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="vrBank.api.tests.Negative.ApiDefaultPayWithEmptyPan" skipped="0" tests="1" time="28.3" timestamp="2019-10-290 11:07:39"><testcase classname="vrBank.api.tests.Negative.ApiDefaultPayWithEmptyPan" name="Api default pay with empty pan"><failure message="1 expectation failed.&#10;XML path response[0].response_code doesn't match.&#10;Expected: A101&#10;  Actual: &#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path response[0].response_code doesn't match.
+Expected: A101
+  Actual: 
+</failure><system-err>1 expectation failed.
+XML path response[0].response_code doesn't match.
+Expected: A101
+  Actual: 
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)&#13;
+vrBank.responses.direct.PayResponse.err(PayResponse.java:49)&#13;
+vrBank.api.tests.Negative.ApiDefaultPayWithEmptyPan.apiDefaultPayWithEmptyPan(ApiDefaultPayWithEmptyPan.java:28)&#13;
+</system-err></testcase></testsuite>
